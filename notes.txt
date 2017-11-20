@@ -1,0 +1,4 @@
+Built on the tutorial at https://stanko.github.io/webpack-babel-react-revisited/
+
+
+Dev builds are fat (npm run dev). Prod builds are a lot slimmer (webpack -p does minification and sets the node env to production). Notes at https://medium.com/@rajaraodv/two-quick-ways-to-reduce-react-apps-size-in-production-82226605771a are a bit misleading because webpack -p does what we want for prod (See https://webpack.js.org/api/cli/#shortcuts)
